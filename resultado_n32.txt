@@ -145,4 +145,4 @@ Iteracao | Solucao encontrada | Melhor fitness | Media da populacao
 
 Melhor resultado encontrado:
 Geracao: 72 | Fitness: 0
-Tempo estimado: 1216 ms
+Tempo de execução: 4887 ms

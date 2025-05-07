@@ -30,7 +30,7 @@ def testar_n_rainhas_com_bloqueios(n, seed=42):
     print(f"\nTotal de bloqueios: {len(bloqueios)}")
 
     # Executar algoritmo genético
-    results, best = Genetic_N_QUEENS(
+    results, best, tempo_exec = Genetic_N_QUEENS(
         dimensions=n,
         population_size=500,
         generations=1200,
@@ -68,18 +68,16 @@ def testar_n_rainhas_com_bloqueios(n, seed=42):
     
     log.append(f"\nMelhor resultado encontrado:")
     log.append(f"Geracao: {final_gen} | Fitness: {final_fit}")
-    log.append(f"Tempo estimado: {int((final_gen+1)*1000/60)} ms")
+    log.append(f"Tempo de execução: {tempo_exec} ms")
 
     with open(f"resultado_n{n}.txt", "w", encoding="utf-8") as f:
         for linha in log:
             f.write(linha + "\n")
 
-    plot_generations(results)
-
 if __name__ == "__main__":
-    # for n in [8, 16, 32, 128]:
-    #     testar_n_rainhas_com_bloqueios(n)
+    for n in [8, 16, 32, 128]:
+        testar_n_rainhas_com_bloqueios(n)
     # Testar o limite de 512
-    # testar_n_rainhas_com_bloqueios(256)
+    testar_n_rainhas_com_bloqueios(256)
     testar_n_rainhas_com_bloqueios(512)
         

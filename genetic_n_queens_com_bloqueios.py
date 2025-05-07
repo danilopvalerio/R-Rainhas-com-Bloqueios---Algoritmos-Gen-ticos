@@ -107,10 +107,10 @@ def plot_generations(results):
 
 # Função principal do algoritmo genético
 def Genetic_N_QUEENS(dimensions=8, population_size=500, generations=1000, mutation_rate=0.1, elitism_size=2, bloqueios=set()):
+    start_time = time.time()
     population = Generate_population(dimensions, population_size)  # População inicial
     best_chromosome = min(population, key=lambda x: fitness(x, bloqueios)).copy()  # Inicializa melhor solução
     results = []
-    start_time = time.time()
 
     for generation in range(generations):
         selected_parents = tournament_selection(population, bloqueios)  # Seleciona indivíduos para cruzamento
@@ -153,4 +153,4 @@ def Genetic_N_QUEENS(dimensions=8, population_size=500, generations=1000, mutati
     print(f"\nMelhor resultado encontrado:")
     print(f"Geração: {results[-1][0]} | Fitness: {results[-1][2][1]}")
     print(f"Tempo de execução: {exec_time_ms} ms")
-    return results, best_chromosome
+    return results, best_chromosome, exec_time_ms

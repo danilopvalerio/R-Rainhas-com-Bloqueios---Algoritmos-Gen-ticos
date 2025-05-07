@@ -2232,4 +2232,4 @@ Iteracao | Solucao encontrada | Melhor fitness | Media da populacao
 
 Melhor resultado encontrado:
 Geracao: 1199 | Fitness: 3
-Tempo estimado: 20000 ms
+Tempo de execução: 1495808 ms

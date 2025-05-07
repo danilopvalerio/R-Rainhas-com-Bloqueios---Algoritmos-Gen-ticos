@@ -619,4 +619,4 @@ Iteracao | Solucao encontrada | Melhor fitness | Media da populacao
 
 Melhor resultado encontrado:
 Geracao: 354 | Fitness: 0
-Tempo estimado: 5916 ms
+Tempo de execução: 93468 ms

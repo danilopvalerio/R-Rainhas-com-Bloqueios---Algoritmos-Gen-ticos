@@ -76,4 +76,4 @@ Iteracao | Solucao encontrada | Melhor fitness | Media da populacao
 
 Melhor resultado encontrado:
 Geracao: 35 | Fitness: 0
-Tempo estimado: 600 ms
+Tempo de execução: 1282 ms

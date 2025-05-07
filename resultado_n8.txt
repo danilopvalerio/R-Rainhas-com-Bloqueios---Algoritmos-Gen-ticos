@@ -26,4 +26,4 @@ Iteracao | Solucao encontrada | Melhor fitness | Media da populacao
 
 Melhor resultado encontrado:
 Geracao: 1 | Fitness: 0
-Tempo estimado: 33 ms
+Tempo de execução: 51 ms

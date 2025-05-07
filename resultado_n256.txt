@@ -1715,4 +1715,4 @@ Iteracao | Solucao encontrada | Melhor fitness | Media da populacao
 
 Melhor resultado encontrado:
 Geracao: 1194 | Fitness: 0
-Tempo estimado: 19916 ms
+Tempo de execução: 616284 ms

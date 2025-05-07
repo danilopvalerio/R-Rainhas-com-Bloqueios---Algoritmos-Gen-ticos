@@ -1,0 +1,29 @@
+Tabuleiro inicial com bloqueios (X):
+. . . . . . . .
+X X . . . . . .
+. . . . . . . .
+. . X . . . . .
+. . . X . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+
+Total de bloqueios: 4
+
+Tabuleiro final com bloqueios (X) e rainhas (R):
+. R . . . . . .
+X X . . R . . .
+. . . . . . R .
+. . X R . . . .
+R . . X . . . .
+. . . . . . . R
+. . . . . R . .
+. . R . . . . .
+
+Iteracao | Solucao encontrada | Melhor fitness | Media da populacao
+        0 |        Nao         |       1        | 150.76
+        1 |        Sim         |       0        | 70.22
+
+Melhor resultado encontrado:
+Geracao: 1 | Fitness: 0
+Tempo estimado: 33 ms

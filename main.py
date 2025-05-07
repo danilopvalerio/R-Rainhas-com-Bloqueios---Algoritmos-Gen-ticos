@@ -77,6 +77,9 @@ def testar_n_rainhas_com_bloqueios(n, seed=42):
     plot_generations(results)
 
 if __name__ == "__main__":
-    for n in [8, 16, 32, 128]:
-        testar_n_rainhas_com_bloqueios(n)
+    # for n in [8, 16, 32, 128]:
+    #     testar_n_rainhas_com_bloqueios(n)
+    # Testar o limite de 512
+    # testar_n_rainhas_com_bloqueios(256)
+    testar_n_rainhas_com_bloqueios(512)
         
